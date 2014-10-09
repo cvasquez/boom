@@ -2,19 +2,23 @@
     <head>
         <title>Boom</title>
 
-        <!-- Bootstrap - Latest compiled and minified CSS -->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <!-- Bootstrap - Latest compiled and minified CSS - DEPRECATED IN FAVOR OF USING BOOTSTRAP SASS -
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">-->
 
         <!-- Boom css -->
         <link rel="stylesheet" href="stylesheets/screen.css">
 
     </head>
     <body>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 text-center">
-                    <a id="startSound">play</a> |
-                    <a id="stopSound">stop</a>
+        <div class="office">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-3 speaker"></div>
+                    <div class="col-sm-6 deck">
+                        <a id="startSound">play</a> |
+                        <a id="stopSound">stop</a>
+                    </div>
+                    <div class="col-sm-3 speaker"></div>
                 </div>
             </div>
         </div>

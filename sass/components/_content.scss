@@ -1,0 +1,20 @@
+body {
+    background: yellow;
+}
+
+.office {
+    background: green;
+}
+
+.speaker, .deck {
+    height: 50%;
+}
+
+.speaker {
+    background: red;
+}
+
+.deck {
+    @extend .text-center;
+    background: blue;
+}

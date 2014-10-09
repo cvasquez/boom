@@ -3,8 +3,14 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
-/* Bootstrap sass */
-@import "compass/reset";
-@import "compass/css3";
-@import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
-@import "components/content";
+/** Variables **/
+    @import "components/variables";
+
+/** Component Imports **/
+    @import "compass/reset";
+    @import "compass/css3";
+    /* Bootstrap sass */
+    @import "../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap";
+    /* Iconic Webfont */
+    @import "vendors/iconic-bootstrap";
+    @import "components/content";

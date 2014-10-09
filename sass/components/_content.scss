@@ -1,10 +1,11 @@
 body {
-    background: yellow;
+    background: $desktop;
 }
 
 .office {
-    background: green;
-    .container {
+    background: $background;
+    .boombox {
+        background: $boom_body;
         position: relative;
         top: 3em;
         margin-bottom:3em;
@@ -17,10 +18,8 @@ body {
 }
 
 .speaker {
-    background: red;
 }
 
 .deck {
     @extend .text-center;
-    background: blue;
 }

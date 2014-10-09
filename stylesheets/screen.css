@@ -2,7 +2,9 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* Bootstrap sass */
+/** Variables **/
+/** Colors **/
+/** Component Imports **/
 /* line 17, ../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -68,6 +70,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
+/* Bootstrap sass */
 /* normalize.css v3.0.1 | MIT License | git.io/normalize */
 /* line 9, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/_normalize.scss */
 html {
@@ -8103,34 +8106,2984 @@ button.close {
     display: none !important;
   }
 }
+/* Iconic Webfont */
+/* Iconic for Bootstrap */
+/* Override Bootstrap default variable */
+@font-face {
+  font-family: 'iconic-sm';
+  src: url("../fonts/iconic/iconic-sm.eot");
+  src: url("../fonts/iconic/iconic-sm.eot?#iconic-sm") format("embedded-opentype"), url("../fonts/iconic/iconic-sm.woff") format("woff"), url("../fonts/iconic/iconic-sm.ttf") format("truetype"), url("../fonts/iconic/iconic-sm.svg#iconic-sm") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'iconic-md';
+  src: url("../fonts/iconic/iconic-md.eot");
+  src: url("../fonts/iconic/iconic-md.eot?#iconic-md") format("embedded-opentype"), url("../fonts/iconic/iconic-md.woff") format("woff"), url("../fonts/iconic/iconic-md.ttf") format("truetype"), url("../fonts/iconic/iconic-md.svg#iconic-md") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'iconic-lg';
+  src: url("../fonts/iconic/iconic-lg.eot");
+  src: url("../fonts/iconic/iconic-lg.eot?#iconic-lg") format("embedded-opentype"), url("../fonts/iconic/iconic-lg.woff") format("woff"), url("../fonts/iconic/iconic-lg.ttf") format("truetype"), url("../fonts/iconic/iconic-lg.svg#iconic-lg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* line 31, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'iconic-sm';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* line 42, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic:before {
+  display: inline-block;
+}
+/* line 46, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic:empty:before {
+  width: 1em;
+  text-align: center;
+  box-sizing: content-box;
+}
+/* line 57, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-sm:before, .iconic.iconic-md:before, .iconic.iconic-lg:before, .iconic.iconic-icon-sm:before, .iconic.iconic-icon-md:before, .iconic.iconic-icon-lg:before {
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 62, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-sm:before {
+  font-family: 'iconic-sm';
+  font-size: 16px;
+}
+/* line 67, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-md:before {
+  font-family: 'iconic-md';
+  font-size: 32px;
+}
+/* line 72, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-lg:before {
+  font-family: 'iconic-lg';
+  font-size: 128px;
+}
+/* line 78, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-icon-sm:before {
+  font-family: 'iconic-sm';
+}
+/* line 82, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-icon-md:before {
+  font-family: 'iconic-md';
+}
+/* line 86, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-icon-lg:before {
+  font-family: 'iconic-lg';
+}
+/* line 91, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-size-sm:before {
+  font-size: 16px;
+}
+/* line 95, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-size-md:before {
+  font-size: 32px;
+}
+/* line 99, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-size-lg:before {
+  font-size: 128px;
+}
+/* line 104, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-align-center:before {
+  text-align: center;
+}
+/* line 108, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-align-left:before {
+  text-align: left;
+}
+/* line 112, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-align-right:before {
+  text-align: right;
+}
+/* line 117, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-flip-horizontal:before {
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+/* line 123, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-flip-vertical:before {
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(1, -1);
+}
+/* line 129, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic.iconic-flip-horizontal-vertical:before {
+  -webkit-transform: scale(-1, -1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, -1);
+}
+
+/* line 138, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-account-login:before {
+  content: '\e000';
+}
+
+/* line 142, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-account-logout:before {
+  content: '\e001';
+}
+
+/* line 146, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-action-redo:before {
+  content: '\e002';
+}
+
+/* line 150, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-action-undo:before {
+  content: '\e003';
+}
+
+/* line 154, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-align-center:before {
+  content: '\e004';
+}
+
+/* line 158, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-align-left:before {
+  content: '\e005';
+}
+
+/* line 162, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-align-right:before {
+  content: '\e006';
+}
+
+/* line 166, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-aperture:before {
+  content: '\e007';
+}
+
+/* line 170, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-fill-acute:before {
+  content: '\e008';
+}
+
+/* line 174, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-fill-angled:before {
+  content: '\e009';
+}
+
+/* line 178, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-fill-large-acute:before {
+  content: '\e00a';
+}
+
+/* line 182, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-fill-large-angled:before {
+  content: '\e00b';
+}
+
+/* line 186, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-fill-large-oblique:before {
+  content: '\e00c';
+}
+
+/* line 190, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-fill-large:before {
+  content: '\e00d';
+}
+
+/* line 194, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-fill-oblique:before {
+  content: '\e00e';
+}
+
+/* line 198, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-fill:before {
+  content: '\e00f';
+}
+
+/* line 202, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-fill-acute:before {
+  content: '\e010';
+}
+
+/* line 206, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-fill-angled:before {
+  content: '\e011';
+}
+
+/* line 210, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-fill-large-acute:before {
+  content: '\e012';
+}
+
+/* line 214, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-fill-large-angled:before {
+  content: '\e013';
+}
+
+/* line 218, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-fill-large-oblique:before {
+  content: '\e014';
+}
+
+/* line 222, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-fill-large:before {
+  content: '\e015';
+}
+
+/* line 226, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-fill-oblique:before {
+  content: '\e016';
+}
+
+/* line 230, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-fill:before {
+  content: '\e017';
+}
+
+/* line 234, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-line-acute:before {
+  content: '\e018';
+}
+
+/* line 238, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-line-large-acute:before {
+  content: '\e019';
+}
+
+/* line 242, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-line-large-oblique:before {
+  content: '\e01a';
+}
+
+/* line 246, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-line-large:before {
+  content: '\e01b';
+}
+
+/* line 250, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-line-oblique:before {
+  content: '\e01c';
+}
+
+/* line 254, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-left-line:before {
+  content: '\e01d';
+}
+
+/* line 258, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-line-acute:before {
+  content: '\e01e';
+}
+
+/* line 262, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-line-large-acute:before {
+  content: '\e01f';
+}
+
+/* line 266, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-line-large-oblique:before {
+  content: '\e020';
+}
+
+/* line 270, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-line-large:before {
+  content: '\e021';
+}
+
+/* line 274, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-line-oblique:before {
+  content: '\e022';
+}
+
+/* line 278, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-line:before {
+  content: '\e023';
+}
+
+/* line 282, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-fill-acute:before {
+  content: '\e024';
+}
+
+/* line 286, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-fill-angled:before {
+  content: '\e025';
+}
+
+/* line 290, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-fill-large-acute:before {
+  content: '\e026';
+}
+
+/* line 294, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-fill-large-angled:before {
+  content: '\e027';
+}
+
+/* line 298, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-fill-large-oblique:before {
+  content: '\e028';
+}
+
+/* line 302, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-fill-large:before {
+  content: '\e029';
+}
+
+/* line 306, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-fill-oblique:before {
+  content: '\e02a';
+}
+
+/* line 310, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-fill:before {
+  content: '\e02b';
+}
+
+/* line 314, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-line-acute:before {
+  content: '\e02c';
+}
+
+/* line 318, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-line-large-acute:before {
+  content: '\e02d';
+}
+
+/* line 322, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-line-large-oblique:before {
+  content: '\e02e';
+}
+
+/* line 326, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-line-large:before {
+  content: '\e02f';
+}
+
+/* line 330, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-line-oblique:before {
+  content: '\e030';
+}
+
+/* line 334, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-bottom-right-line:before {
+  content: '\e031';
+}
+
+/* line 338, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-fill-acute:before {
+  content: '\e032';
+}
+
+/* line 342, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-fill-angled:before {
+  content: '\e033';
+}
+
+/* line 346, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-fill-large-acute:before {
+  content: '\e034';
+}
+
+/* line 350, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-fill-large-angled:before {
+  content: '\e035';
+}
+
+/* line 354, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-fill-large-oblique:before {
+  content: '\e036';
+}
+
+/* line 358, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-fill-large:before {
+  content: '\e037';
+}
+
+/* line 362, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-fill-oblique:before {
+  content: '\e038';
+}
+
+/* line 366, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-fill:before {
+  content: '\e039';
+}
+
+/* line 370, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-line-acute:before {
+  content: '\e03a';
+}
+
+/* line 374, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-line-large-acute:before {
+  content: '\e03b';
+}
+
+/* line 378, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-line-large-oblique:before {
+  content: '\e03c';
+}
+
+/* line 382, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-line-large:before {
+  content: '\e03d';
+}
+
+/* line 386, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-line-oblique:before {
+  content: '\e03e';
+}
+
+/* line 390, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-left-line:before {
+  content: '\e03f';
+}
+
+/* line 394, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-bottom-left-fill-acute:before {
+  content: '\e040';
+}
+
+/* line 398, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-bottom-left-fill-angled:before {
+  content: '\e041';
+}
+
+/* line 402, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-bottom-left-fill:before {
+  content: '\e042';
+}
+
+/* line 406, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-bottom-left-line:before {
+  content: '\e043';
+}
+
+/* line 410, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-bottom-right-fill-acute:before {
+  content: '\e044';
+}
+
+/* line 414, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-bottom-right-fill-angled:before {
+  content: '\e045';
+}
+
+/* line 418, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-bottom-right-fill:before {
+  content: '\e046';
+}
+
+/* line 422, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-bottom-right-line:before {
+  content: '\e047';
+}
+
+/* line 426, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-left-bottom-fill-acute:before {
+  content: '\e048';
+}
+
+/* line 430, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-left-bottom-fill-angled:before {
+  content: '\e049';
+}
+
+/* line 434, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-left-bottom-fill:before {
+  content: '\e04a';
+}
+
+/* line 438, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-left-bottom-line:before {
+  content: '\e04b';
+}
+
+/* line 442, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-left-top-fill-acute:before {
+  content: '\e04c';
+}
+
+/* line 446, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-left-top-fill-angled:before {
+  content: '\e04d';
+}
+
+/* line 450, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-left-top-fill:before {
+  content: '\e04e';
+}
+
+/* line 454, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-left-top-line:before {
+  content: '\e04f';
+}
+
+/* line 458, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-right-bottom-fill-acute:before {
+  content: '\e050';
+}
+
+/* line 462, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-right-bottom-fill-angled:before {
+  content: '\e051';
+}
+
+/* line 466, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-right-bottom-fill:before {
+  content: '\e052';
+}
+
+/* line 470, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-right-bottom-line:before {
+  content: '\e053';
+}
+
+/* line 474, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-right-top-fill-acute:before {
+  content: '\e054';
+}
+
+/* line 478, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-right-top-fill-angled:before {
+  content: '\e055';
+}
+
+/* line 482, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-right-top-fill:before {
+  content: '\e056';
+}
+
+/* line 486, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-right-top-line:before {
+  content: '\e057';
+}
+
+/* line 490, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-bottom-left-fill-acute:before {
+  content: '\e058';
+}
+
+/* line 494, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-bottom-left-fill-angled:before {
+  content: '\e059';
+}
+
+/* line 498, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-bottom-left-fill:before {
+  content: '\e05a';
+}
+
+/* line 502, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-bottom-left-line:before {
+  content: '\e05b';
+}
+
+/* line 506, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-bottom-right-fill-acute:before {
+  content: '\e05c';
+}
+
+/* line 510, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-bottom-right-fill-angled:before {
+  content: '\e05d';
+}
+
+/* line 514, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-bottom-right-fill:before {
+  content: '\e05e';
+}
+
+/* line 518, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-bottom-right-line:before {
+  content: '\e05f';
+}
+
+/* line 522, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-left-bottom-fill-acute:before {
+  content: '\e060';
+}
+
+/* line 526, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-left-bottom-fill-angled:before {
+  content: '\e061';
+}
+
+/* line 530, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-left-bottom-fill:before {
+  content: '\e062';
+}
+
+/* line 534, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-left-bottom-line:before {
+  content: '\e063';
+}
+
+/* line 538, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-left-top-fill-acute:before {
+  content: '\e064';
+}
+
+/* line 542, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-left-top-fill-angled:before {
+  content: '\e065';
+}
+
+/* line 546, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-left-top-fill:before {
+  content: '\e066';
+}
+
+/* line 550, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-left-top-line:before {
+  content: '\e067';
+}
+
+/* line 554, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-right-bottom-fill-acute:before {
+  content: '\e068';
+}
+
+/* line 558, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-right-bottom-fill-angled:before {
+  content: '\e069';
+}
+
+/* line 562, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-right-bottom-fill:before {
+  content: '\e06a';
+}
+
+/* line 566, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-right-bottom-line:before {
+  content: '\e06b';
+}
+
+/* line 570, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-right-top-fill-acute:before {
+  content: '\e06c';
+}
+
+/* line 574, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-right-top-fill-angled:before {
+  content: '\e06d';
+}
+
+/* line 578, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-right-top-fill:before {
+  content: '\e06e';
+}
+
+/* line 582, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-right-top-line:before {
+  content: '\e06f';
+}
+
+/* line 586, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-top-left-fill-acute:before {
+  content: '\e070';
+}
+
+/* line 590, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-top-left-fill-angled:before {
+  content: '\e071';
+}
+
+/* line 594, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-top-left-fill:before {
+  content: '\e072';
+}
+
+/* line 598, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-top-left-line:before {
+  content: '\e073';
+}
+
+/* line 602, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-top-right-fill-acute:before {
+  content: '\e074';
+}
+
+/* line 606, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-top-right-fill-angled:before {
+  content: '\e075';
+}
+
+/* line 610, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-top-right-fill:before {
+  content: '\e076';
+}
+
+/* line 614, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-thick-top-right-line:before {
+  content: '\e077';
+}
+
+/* line 618, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-top-left-fill-acute:before {
+  content: '\e078';
+}
+
+/* line 622, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-top-left-fill-angled:before {
+  content: '\e079';
+}
+
+/* line 626, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-top-left-fill:before {
+  content: '\e07a';
+}
+
+/* line 630, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-top-left-line:before {
+  content: '\e07b';
+}
+
+/* line 634, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-top-right-fill-acute:before {
+  content: '\e07c';
+}
+
+/* line 638, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-top-right-fill-angled:before {
+  content: '\e07d';
+}
+
+/* line 642, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-top-right-fill:before {
+  content: '\e07e';
+}
+
+/* line 646, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-angle-top-right-line:before {
+  content: '\e07f';
+}
+
+/* line 650, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-fill-acute:before {
+  content: '\e080';
+}
+
+/* line 654, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-fill-angled:before {
+  content: '\e081';
+}
+
+/* line 658, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-fill-large-acute:before {
+  content: '\e082';
+}
+
+/* line 662, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-fill-large-angled:before {
+  content: '\e083';
+}
+
+/* line 666, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-fill-large-oblique:before {
+  content: '\e084';
+}
+
+/* line 670, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-fill-large:before {
+  content: '\e085';
+}
+
+/* line 674, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-fill-oblique:before {
+  content: '\e086';
+}
+
+/* line 678, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-fill:before {
+  content: '\e087';
+}
+
+/* line 682, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-line-acute:before {
+  content: '\e088';
+}
+
+/* line 686, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-line-large-acute:before {
+  content: '\e089';
+}
+
+/* line 690, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-line-large-oblique:before {
+  content: '\e08a';
+}
+
+/* line 694, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-line-large:before {
+  content: '\e08b';
+}
+
+/* line 698, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-line-oblique:before {
+  content: '\e08c';
+}
+
+/* line 702, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-right-line:before {
+  content: '\e08d';
+}
+
+/* line 706, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-fill-acute:before {
+  content: '\e08e';
+}
+
+/* line 710, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-fill-angled:before {
+  content: '\e08f';
+}
+
+/* line 714, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-fill-large-acute:before {
+  content: '\e090';
+}
+
+/* line 718, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-fill-large-angled:before {
+  content: '\e091';
+}
+
+/* line 722, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-fill-large-oblique:before {
+  content: '\e092';
+}
+
+/* line 726, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-fill-large:before {
+  content: '\e093';
+}
+
+/* line 730, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-fill-oblique:before {
+  content: '\e094';
+}
+
+/* line 734, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-fill:before {
+  content: '\e095';
+}
+
+/* line 738, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-fill-acute:before {
+  content: '\e096';
+}
+
+/* line 742, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-fill-angled:before {
+  content: '\e097';
+}
+
+/* line 746, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-fill-large-acute:before {
+  content: '\e098';
+}
+
+/* line 750, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-fill-large-angled:before {
+  content: '\e099';
+}
+
+/* line 754, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-fill-large-oblique:before {
+  content: '\e09a';
+}
+
+/* line 758, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-fill-large:before {
+  content: '\e09b';
+}
+
+/* line 762, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-fill-oblique:before {
+  content: '\e09c';
+}
+
+/* line 766, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-fill:before {
+  content: '\e09d';
+}
+
+/* line 770, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-line-acute:before {
+  content: '\e09e';
+}
+
+/* line 774, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-line-large-acute:before {
+  content: '\e09f';
+}
+
+/* line 778, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-line-large-oblique:before {
+  content: '\e0a0';
+}
+
+/* line 782, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-line-large:before {
+  content: '\e0a1';
+}
+
+/* line 786, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-line-oblique:before {
+  content: '\e0a2';
+}
+
+/* line 790, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-left-line:before {
+  content: '\e0a3';
+}
+
+/* line 794, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-line-acute:before {
+  content: '\e0a4';
+}
+
+/* line 798, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-line-large-acute:before {
+  content: '\e0a5';
+}
+
+/* line 802, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-line-large-oblique:before {
+  content: '\e0a6';
+}
+
+/* line 806, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-line-large:before {
+  content: '\e0a7';
+}
+
+/* line 810, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-line-oblique:before {
+  content: '\e0a8';
+}
+
+/* line 814, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-line:before {
+  content: '\e0a9';
+}
+
+/* line 818, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-fill-acute:before {
+  content: '\e0aa';
+}
+
+/* line 822, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-fill-angled:before {
+  content: '\e0ab';
+}
+
+/* line 826, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-fill-large-acute:before {
+  content: '\e0ac';
+}
+
+/* line 830, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-fill-large-angled:before {
+  content: '\e0ad';
+}
+
+/* line 834, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-fill-large-oblique:before {
+  content: '\e0ae';
+}
+
+/* line 838, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-fill-large:before {
+  content: '\e0af';
+}
+
+/* line 842, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-fill-oblique:before {
+  content: '\e0b0';
+}
+
+/* line 846, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-fill:before {
+  content: '\e0b1';
+}
+
+/* line 850, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-line-acute:before {
+  content: '\e0b2';
+}
+
+/* line 854, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-line-large-acute:before {
+  content: '\e0b3';
+}
+
+/* line 858, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-line-large-oblique:before {
+  content: '\e0b4';
+}
+
+/* line 862, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-line-large:before {
+  content: '\e0b5';
+}
+
+/* line 866, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-line-oblique:before {
+  content: '\e0b6';
+}
+
+/* line 870, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-bottom-right-line:before {
+  content: '\e0b7';
+}
+
+/* line 874, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-fill-acute:before {
+  content: '\e0b8';
+}
+
+/* line 878, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-fill-angled:before {
+  content: '\e0b9';
+}
+
+/* line 882, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-fill-large-acute:before {
+  content: '\e0ba';
+}
+
+/* line 886, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-fill-large-angled:before {
+  content: '\e0bb';
+}
+
+/* line 890, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-fill-large-oblique:before {
+  content: '\e0bc';
+}
+
+/* line 894, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-fill-large:before {
+  content: '\e0bd';
+}
+
+/* line 898, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-fill-oblique:before {
+  content: '\e0be';
+}
+
+/* line 902, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-fill:before {
+  content: '\e0bf';
+}
+
+/* line 906, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-line-acute:before {
+  content: '\e0c0';
+}
+
+/* line 910, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-line-large-acute:before {
+  content: '\e0c1';
+}
+
+/* line 914, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-line-large-oblique:before {
+  content: '\e0c2';
+}
+
+/* line 918, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-line-large:before {
+  content: '\e0c3';
+}
+
+/* line 922, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-line-oblique:before {
+  content: '\e0c4';
+}
+
+/* line 926, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-left-line:before {
+  content: '\e0c5';
+}
+
+/* line 930, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-fill-acute:before {
+  content: '\e0c6';
+}
+
+/* line 934, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-fill-angled:before {
+  content: '\e0c7';
+}
+
+/* line 938, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-fill-large-acute:before {
+  content: '\e0c8';
+}
+
+/* line 942, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-fill-large-angled:before {
+  content: '\e0c9';
+}
+
+/* line 946, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-fill-large-oblique:before {
+  content: '\e0ca';
+}
+
+/* line 950, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-fill-large:before {
+  content: '\e0cb';
+}
+
+/* line 954, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-fill-oblique:before {
+  content: '\e0cc';
+}
+
+/* line 958, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-fill:before {
+  content: '\e0cd';
+}
+
+/* line 962, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-line-acute:before {
+  content: '\e0ce';
+}
+
+/* line 966, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-line-large-acute:before {
+  content: '\e0cf';
+}
+
+/* line 970, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-line-large-oblique:before {
+  content: '\e0d0';
+}
+
+/* line 974, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-line-large:before {
+  content: '\e0d1';
+}
+
+/* line 978, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-line-oblique:before {
+  content: '\e0d2';
+}
+
+/* line 982, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-right-line:before {
+  content: '\e0d3';
+}
+
+/* line 986, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-fill-acute:before {
+  content: '\e0d4';
+}
+
+/* line 990, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-fill-angled:before {
+  content: '\e0d5';
+}
+
+/* line 994, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-fill-large-acute:before {
+  content: '\e0d6';
+}
+
+/* line 998, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-fill-large-angled:before {
+  content: '\e0d7';
+}
+
+/* line 1002, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-fill-large-oblique:before {
+  content: '\e0d8';
+}
+
+/* line 1006, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-fill-large:before {
+  content: '\e0d9';
+}
+
+/* line 1010, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-fill-oblique:before {
+  content: '\e0da';
+}
+
+/* line 1014, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-fill:before {
+  content: '\e0db';
+}
+
+/* line 1018, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-fill-acute:before {
+  content: '\e0dc';
+}
+
+/* line 1022, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-fill-angled:before {
+  content: '\e0dd';
+}
+
+/* line 1026, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-fill-large-acute:before {
+  content: '\e0de';
+}
+
+/* line 1030, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-fill-large-angled:before {
+  content: '\e0df';
+}
+
+/* line 1034, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-fill-large-oblique:before {
+  content: '\e0e0';
+}
+
+/* line 1038, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-fill-large:before {
+  content: '\e0e1';
+}
+
+/* line 1042, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-fill-oblique:before {
+  content: '\e0e2';
+}
+
+/* line 1046, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-fill:before {
+  content: '\e0e3';
+}
+
+/* line 1050, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-line-acute:before {
+  content: '\e0e4';
+}
+
+/* line 1054, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-line-large-acute:before {
+  content: '\e0e5';
+}
+
+/* line 1058, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-line-large-oblique:before {
+  content: '\e0e6';
+}
+
+/* line 1062, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-line-large:before {
+  content: '\e0e7';
+}
+
+/* line 1066, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-line-oblique:before {
+  content: '\e0e8';
+}
+
+/* line 1070, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-left-line:before {
+  content: '\e0e9';
+}
+
+/* line 1074, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-line-acute:before {
+  content: '\e0ea';
+}
+
+/* line 1078, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-line-large-acute:before {
+  content: '\e0eb';
+}
+
+/* line 1082, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-line-large-oblique:before {
+  content: '\e0ec';
+}
+
+/* line 1086, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-line-large:before {
+  content: '\e0ed';
+}
+
+/* line 1090, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-line-oblique:before {
+  content: '\e0ee';
+}
+
+/* line 1094, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-line:before {
+  content: '\e0ef';
+}
+
+/* line 1098, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-fill-acute:before {
+  content: '\e0f0';
+}
+
+/* line 1102, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-fill-angled:before {
+  content: '\e0f1';
+}
+
+/* line 1106, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-fill-large-acute:before {
+  content: '\e0f2';
+}
+
+/* line 1110, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-fill-large-angled:before {
+  content: '\e0f3';
+}
+
+/* line 1114, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-fill-large-oblique:before {
+  content: '\e0f4';
+}
+
+/* line 1118, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-fill-large:before {
+  content: '\e0f5';
+}
+
+/* line 1122, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-fill-oblique:before {
+  content: '\e0f6';
+}
+
+/* line 1126, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-fill:before {
+  content: '\e0f7';
+}
+
+/* line 1130, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-line-acute:before {
+  content: '\e0f8';
+}
+
+/* line 1134, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-line-large-acute:before {
+  content: '\e0f9';
+}
+
+/* line 1138, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-line-large-oblique:before {
+  content: '\e0fa';
+}
+
+/* line 1142, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-line-large:before {
+  content: '\e0fb';
+}
+
+/* line 1146, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-line-oblique:before {
+  content: '\e0fc';
+}
+
+/* line 1150, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-thick-top-right-line:before {
+  content: '\e0fd';
+}
+
+/* line 1154, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-fill-acute:before {
+  content: '\e0fe';
+}
+
+/* line 1158, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-fill-angled:before {
+  content: '\e0ff';
+}
+
+/* line 1162, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-fill-large-acute:before {
+  content: '\e100';
+}
+
+/* line 1166, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-fill-large-angled:before {
+  content: '\e101';
+}
+
+/* line 1170, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-fill-large-oblique:before {
+  content: '\e102';
+}
+
+/* line 1174, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-fill-large:before {
+  content: '\e103';
+}
+
+/* line 1178, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-fill-oblique:before {
+  content: '\e104';
+}
+
+/* line 1182, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-fill:before {
+  content: '\e105';
+}
+
+/* line 1186, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-fill-acute:before {
+  content: '\e106';
+}
+
+/* line 1190, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-fill-angled:before {
+  content: '\e107';
+}
+
+/* line 1194, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-fill-large-acute:before {
+  content: '\e108';
+}
+
+/* line 1198, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-fill-large-angled:before {
+  content: '\e109';
+}
+
+/* line 1202, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-fill-large-oblique:before {
+  content: '\e10a';
+}
+
+/* line 1206, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-fill-large:before {
+  content: '\e10b';
+}
+
+/* line 1210, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-fill-oblique:before {
+  content: '\e10c';
+}
+
+/* line 1214, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-fill:before {
+  content: '\e10d';
+}
+
+/* line 1218, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-line-acute:before {
+  content: '\e10e';
+}
+
+/* line 1222, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-line-large-acute:before {
+  content: '\e10f';
+}
+
+/* line 1226, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-line-large-oblique:before {
+  content: '\e110';
+}
+
+/* line 1230, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-line-large:before {
+  content: '\e111';
+}
+
+/* line 1234, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-line-oblique:before {
+  content: '\e112';
+}
+
+/* line 1238, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-left-line:before {
+  content: '\e113';
+}
+
+/* line 1242, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-line-acute:before {
+  content: '\e114';
+}
+
+/* line 1246, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-line-large-acute:before {
+  content: '\e115';
+}
+
+/* line 1250, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-line-large-oblique:before {
+  content: '\e116';
+}
+
+/* line 1254, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-line-large:before {
+  content: '\e117';
+}
+
+/* line 1258, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-line-oblique:before {
+  content: '\e118';
+}
+
+/* line 1262, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-line:before {
+  content: '\e119';
+}
+
+/* line 1266, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-fill-acute:before {
+  content: '\e11a';
+}
+
+/* line 1270, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-fill-angled:before {
+  content: '\e11b';
+}
+
+/* line 1274, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-fill-large-acute:before {
+  content: '\e11c';
+}
+
+/* line 1278, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-fill-large-angled:before {
+  content: '\e11d';
+}
+
+/* line 1282, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-fill-large-oblique:before {
+  content: '\e11e';
+}
+
+/* line 1286, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-fill-large:before {
+  content: '\e11f';
+}
+
+/* line 1290, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-fill-oblique:before {
+  content: '\e120';
+}
+
+/* line 1294, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-fill:before {
+  content: '\e121';
+}
+
+/* line 1298, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-line-acute:before {
+  content: '\e122';
+}
+
+/* line 1302, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-line-large-acute:before {
+  content: '\e123';
+}
+
+/* line 1306, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-line-large-oblique:before {
+  content: '\e124';
+}
+
+/* line 1310, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-line-large:before {
+  content: '\e125';
+}
+
+/* line 1314, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-line-oblique:before {
+  content: '\e126';
+}
+
+/* line 1318, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-arrow-top-right-line:before {
+  content: '\e127';
+}
+
+/* line 1322, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-audio-spectrum:before {
+  content: '\e128';
+}
+
+/* line 1326, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-audio:before {
+  content: '\e129';
+}
+
+/* line 1330, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-ban:before {
+  content: '\e12a';
+}
+
+/* line 1334, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bar-chart:before {
+  content: '\e12b';
+}
+
+/* line 1338, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-basket:before {
+  content: '\e12c';
+}
+
+/* line 1342, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-battery:before {
+  content: '\e12d';
+}
+
+/* line 1346, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-beaker:before {
+  content: '\e12e';
+}
+
+/* line 1350, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bell:before {
+  content: '\e12f';
+}
+
+/* line 1354, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bitcoin-address:before {
+  content: '\e130';
+}
+
+/* line 1358, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bitcoin-block:before {
+  content: '\e131';
+}
+
+/* line 1362, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bitcoin-transaction:before {
+  content: '\e132';
+}
+
+/* line 1366, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bitcoin:before {
+  content: '\e133';
+}
+
+/* line 1370, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bluetooth:before {
+  content: '\e134';
+}
+
+/* line 1374, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bold:before {
+  content: '\e135';
+}
+
+/* line 1378, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-book:before {
+  content: '\e136';
+}
+
+/* line 1382, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bookmark:before {
+  content: '\e137';
+}
+
+/* line 1386, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-box:before {
+  content: '\e138';
+}
+
+/* line 1390, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-brain:before {
+  content: '\e139';
+}
+
+/* line 1394, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-briefcase:before {
+  content: '\e13a';
+}
+
+/* line 1398, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-british-pound:before {
+  content: '\e13b';
+}
+
+/* line 1402, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-browser-type-chrome:before {
+  content: '\e13c';
+}
+
+/* line 1406, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-browser-type-firefox:before {
+  content: '\e13d';
+}
+
+/* line 1410, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-browser-type-internet-explorer:before {
+  content: '\e13e';
+}
+
+/* line 1414, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-browser-type-internetexplorer:before {
+  content: '\e13f';
+}
+
+/* line 1418, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-browser-type-safari:before {
+  content: '\e140';
+}
+
+/* line 1422, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-browser:before {
+  content: '\e141';
+}
+
+/* line 1426, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-brush:before {
+  content: '\e142';
+}
+
+/* line 1430, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bug:before {
+  content: '\e143';
+}
+
+/* line 1434, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-bullhorn:before {
+  content: '\e144';
+}
+
+/* line 1438, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-calculator:before {
+  content: '\e145';
+}
+
+/* line 1442, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-calendar:before {
+  content: '\e146';
+}
+
+/* line 1446, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-camera-rangefinder:before {
+  content: '\e147';
+}
+
+/* line 1450, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-camera-slr:before {
+  content: '\e148';
+}
+
+/* line 1454, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-caret-bottom:before {
+  content: '\e149';
+}
+
+/* line 1458, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-caret-left:before {
+  content: '\e14a';
+}
+
+/* line 1462, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-caret-right:before {
+  content: '\e14b';
+}
+
+/* line 1466, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-caret-top:before {
+  content: '\e14c';
+}
+
+/* line 1470, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-cart:before {
+  content: '\e14d';
+}
+
+/* line 1474, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-chat:before {
+  content: '\e14e';
+}
+
+/* line 1478, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-check:before {
+  content: '\e14f';
+}
+
+/* line 1482, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-chevron-bottom:before {
+  content: '\e150';
+}
+
+/* line 1486, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-chevron-left:before {
+  content: '\e151';
+}
+
+/* line 1490, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-chevron-right:before {
+  content: '\e152';
+}
+
+/* line 1494, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-chevron-top:before {
+  content: '\e153';
+}
+
+/* line 1498, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-circle-check:before {
+  content: '\e154';
+}
+
+/* line 1502, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-circle-x:before {
+  content: '\e155';
+}
+
+/* line 1506, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-clipboard:before {
+  content: '\e156';
+}
+
+/* line 1510, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-clock:before {
+  content: '\e157';
+}
+
+/* line 1514, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-cloud-transfer-download:before {
+  content: '\e158';
+}
+
+/* line 1518, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-cloud-transfer-upload:before {
+  content: '\e159';
+}
+
+/* line 1522, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-cloud:before {
+  content: '\e15a';
+}
+
+/* line 1526, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-cloudy:before {
+  content: '\e15b';
+}
+
+/* line 1530, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-code:before {
+  content: '\e15c';
+}
+
+/* line 1534, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-cog:before {
+  content: '\e15d';
+}
+
+/* line 1538, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-cogs:before {
+  content: '\e15e';
+}
+
+/* line 1542, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-collapse-down:before {
+  content: '\e15f';
+}
+
+/* line 1546, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-collapse-left:before {
+  content: '\e160';
+}
+
+/* line 1550, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-collapse-right:before {
+  content: '\e161';
+}
+
+/* line 1554, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-collapse-up:before {
+  content: '\e162';
+}
+
+/* line 1558, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-command:before {
+  content: '\e163';
+}
+
+/* line 1562, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-comment-square:before {
+  content: '\e164';
+}
+
+/* line 1566, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-compass:before {
+  content: '\e165';
+}
+
+/* line 1570, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-connections:before {
+  content: '\e166';
+}
+
+/* line 1574, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-contrast:before {
+  content: '\e167';
+}
+
+/* line 1578, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-copywriting:before {
+  content: '\e168';
+}
+
+/* line 1582, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-credit-card:before {
+  content: '\e169';
+}
+
+/* line 1586, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-crop:before {
+  content: '\e16a';
+}
+
+/* line 1590, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-dashboard:before {
+  content: '\e16b';
+}
+
+/* line 1594, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-data-transfer-download:before {
+  content: '\e16c';
+}
+
+/* line 1598, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-data-transfer-upload:before {
+  content: '\e16d';
+}
+
+/* line 1602, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-database:before {
+  content: '\e16e';
+}
+
+/* line 1606, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-delete:before {
+  content: '\e16f';
+}
+
+/* line 1610, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-delta:before {
+  content: '\e170';
+}
+
+/* line 1614, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-dial:before {
+  content: '\e171';
+}
+
+/* line 1618, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-document:before {
+  content: '\e172';
+}
+
+/* line 1622, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-dollar:before {
+  content: '\e173';
+}
+
+/* line 1626, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-double-quote-sans-left:before {
+  content: '\e174';
+}
+
+/* line 1630, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-double-quote-sans-right:before {
+  content: '\e175';
+}
+
+/* line 1634, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-double-quote-serif-left:before {
+  content: '\e176';
+}
+
+/* line 1638, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-double-quote-serif-right:before {
+  content: '\e177';
+}
+
+/* line 1642, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-eject:before {
+  content: '\e178';
+}
+
+/* line 1646, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-electric:before {
+  content: '\e179';
+}
+
+/* line 1650, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-elevator:before {
+  content: '\e17a';
+}
+
+/* line 1654, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-ellipses:before {
+  content: '\e17b';
+}
+
+/* line 1658, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-envelope-closed:before {
+  content: '\e17c';
+}
+
+/* line 1662, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-envelope-open:before {
+  content: '\e17d';
+}
+
+/* line 1666, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-euro:before {
+  content: '\e17e';
+}
+
+/* line 1670, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-excerpt:before {
+  content: '\e17f';
+}
+
+/* line 1674, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-expand-down:before {
+  content: '\e180';
+}
+
+/* line 1678, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-expand-left:before {
+  content: '\e181';
+}
+
+/* line 1682, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-expand-right:before {
+  content: '\e182';
+}
+
+/* line 1686, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-expand-up:before {
+  content: '\e183';
+}
+
+/* line 1690, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-external-link:before {
+  content: '\e184';
+}
+
+/* line 1694, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-eye:before {
+  content: '\e185';
+}
+
+/* line 1698, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-eyedropper:before {
+  content: '\e186';
+}
+
+/* line 1702, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-ai:before {
+  content: '\e187';
+}
+
+/* line 1706, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-css:before {
+  content: '\e188';
+}
+
+/* line 1710, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-dmg:before {
+  content: '\e189';
+}
+
+/* line 1714, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-doc:before {
+  content: '\e18a';
+}
+
+/* line 1718, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-gif:before {
+  content: '\e18b';
+}
+
+/* line 1722, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-html:before {
+  content: '\e18c';
+}
+
+/* line 1726, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-jpg:before {
+  content: '\e18d';
+}
+
+/* line 1730, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-js:before {
+  content: '\e18e';
+}
+
+/* line 1734, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-json:before {
+  content: '\e18f';
+}
+
+/* line 1738, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-mov:before {
+  content: '\e190';
+}
+
+/* line 1742, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-mp3:before {
+  content: '\e191';
+}
+
+/* line 1746, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-pdf:before {
+  content: '\e192';
+}
+
+/* line 1750, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-png:before {
+  content: '\e193';
+}
+
+/* line 1754, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-psd:before {
+  content: '\e194';
+}
+
+/* line 1758, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-svg:before {
+  content: '\e195';
+}
+
+/* line 1762, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-txt:before {
+  content: '\e196';
+}
+
+/* line 1766, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-xls:before {
+  content: '\e197';
+}
+
+/* line 1770, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-xml:before {
+  content: '\e198';
+}
+
+/* line 1774, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-file-zip:before {
+  content: '\e199';
+}
+
+/* line 1778, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-fire:before {
+  content: '\e19a';
+}
+
+/* line 1782, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-firefly:before {
+  content: '\e19b';
+}
+
+/* line 1786, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-flag:before {
+  content: '\e19c';
+}
+
+/* line 1790, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-flash:before {
+  content: '\e19d';
+}
+
+/* line 1794, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-folder:before {
+  content: '\e19e';
+}
+
+/* line 1798, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-fork:before {
+  content: '\e19f';
+}
+
+/* line 1802, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-fullscreen-enter:before {
+  content: '\e1a0';
+}
+
+/* line 1806, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-fullscreen-exit:before {
+  content: '\e1a1';
+}
+
+/* line 1810, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-funnel:before {
+  content: '\e1a2';
+}
+
+/* line 1814, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-game-controller:before {
+  content: '\e1a3';
+}
+
+/* line 1818, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-globe:before {
+  content: '\e1a4';
+}
+
+/* line 1822, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-graph:before {
+  content: '\e1a5';
+}
+
+/* line 1826, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-grid-four-up:before {
+  content: '\e1a6';
+}
+
+/* line 1830, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-grid-three-up:before {
+  content: '\e1a7';
+}
+
+/* line 1834, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-grid-two-up:before {
+  content: '\e1a8';
+}
+
+/* line 1838, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-guides:before {
+  content: '\e1a9';
+}
+
+/* line 1842, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-hammer:before {
+  content: '\e1aa';
+}
+
+/* line 1846, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-hand:before {
+  content: '\e1ab';
+}
+
+/* line 1850, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-hard-drive:before {
+  content: '\e1ac';
+}
+
+/* line 1854, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-header:before {
+  content: '\e1ad';
+}
+
+/* line 1858, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-headphones:before {
+  content: '\e1ae';
+}
+
+/* line 1862, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-heart:before {
+  content: '\e1af';
+}
+
+/* line 1866, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-history:before {
+  content: '\e1b0';
+}
+
+/* line 1870, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-home:before {
+  content: '\e1b1';
+}
+
+/* line 1874, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-image-landscape:before {
+  content: '\e1b2';
+}
+
+/* line 1878, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-image-portrait:before {
+  content: '\e1b3';
+}
+
+/* line 1882, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-inbox:before {
+  content: '\e1b4';
+}
+
+/* line 1886, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-infinity:before {
+  content: '\e1b5';
+}
+
+/* line 1890, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-info:before {
+  content: '\e1b6';
+}
+
+/* line 1894, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-iphone:before {
+  content: '\e1b7';
+}
+
+/* line 1898, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-italic:before {
+  content: '\e1b8';
+}
+
+/* line 1902, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-justify-center:before {
+  content: '\e1b9';
+}
+
+/* line 1906, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-justify-left:before {
+  content: '\e1ba';
+}
+
+/* line 1910, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-justify-right:before {
+  content: '\e1bb';
+}
+
+/* line 1914, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-key:before {
+  content: '\e1bc';
+}
+
+/* line 1918, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-keyboard:before {
+  content: '\e1bd';
+}
+
+/* line 1922, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-laptop:before {
+  content: '\e1be';
+}
+
+/* line 1926, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-layers:before {
+  content: '\e1bf';
+}
+
+/* line 1930, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-lightbulb:before {
+  content: '\e1c0';
+}
+
+/* line 1934, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-lightning-bolt:before {
+  content: '\e1c1';
+}
+
+/* line 1938, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-lightning:before {
+  content: '\e1c2';
+}
+
+/* line 1942, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-link-broken:before {
+  content: '\e1c3';
+}
+
+/* line 1946, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-link-intact:before {
+  content: '\e1c4';
+}
+
+/* line 1950, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-list-nested:before {
+  content: '\e1c5';
+}
+
+/* line 1954, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-list-rich:before {
+  content: '\e1c6';
+}
+
+/* line 1958, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-list:before {
+  content: '\e1c7';
+}
+
+/* line 1962, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-location:before {
+  content: '\e1c8';
+}
+
+/* line 1966, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-lock-locked:before {
+  content: '\e1c9';
+}
+
+/* line 1970, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-lock-unlocked:before {
+  content: '\e1ca';
+}
+
+/* line 1974, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-loop-circular:before {
+  content: '\e1cb';
+}
+
+/* line 1978, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-loop-square:before {
+  content: '\e1cc';
+}
+
+/* line 1982, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-loop:before {
+  content: '\e1cd';
+}
+
+/* line 1986, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-magic-wand:before {
+  content: '\e1ce';
+}
+
+/* line 1990, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-magnifying-glass:before {
+  content: '\e1cf';
+}
+
+/* line 1994, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-map-marker:before {
+  content: '\e1d0';
+}
+
+/* line 1998, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-map:before {
+  content: '\e1d1';
+}
+
+/* line 2002, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-medal:before {
+  content: '\e1d2';
+}
+
+/* line 2006, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-media-pause:before {
+  content: '\e1d3';
+}
+
+/* line 2010, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-media-play-circle:before {
+  content: '\e1d4';
+}
+
+/* line 2014, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-media-play:before {
+  content: '\e1d5';
+}
+
+/* line 2018, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-media-record:before {
+  content: '\e1d6';
+}
+
+/* line 2022, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-media-skip-backward:before {
+  content: '\e1d7';
+}
+
+/* line 2026, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-media-skip-forward:before {
+  content: '\e1d8';
+}
+
+/* line 2030, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-media-step-backward:before {
+  content: '\e1d9';
+}
+
+/* line 2034, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-media-step-forward:before {
+  content: '\e1da';
+}
+
+/* line 2038, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-media-stop:before {
+  content: '\e1db';
+}
+
+/* line 2042, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-medical-cross:before {
+  content: '\e1dc';
+}
+
+/* line 2046, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-menu:before {
+  content: '\e1dd';
+}
+
+/* line 2050, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-microphone:before {
+  content: '\e1de';
+}
+
+/* line 2054, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-minus:before {
+  content: '\e1df';
+}
+
+/* line 2058, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-monitor:before {
+  content: '\e1e0';
+}
+
+/* line 2062, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-moon:before {
+  content: '\e1e1';
+}
+
+/* line 2066, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-move:before {
+  content: '\e1e2';
+}
+
+/* line 2070, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-musical-note:before {
+  content: '\e1e3';
+}
+
+/* line 2074, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-nexus:before {
+  content: '\e1e4';
+}
+
+/* line 2078, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-paperclip:before {
+  content: '\e1e5';
+}
+
+/* line 2082, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-peace:before {
+  content: '\e1e6';
+}
+
+/* line 2086, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-pen:before {
+  content: '\e1e7';
+}
+
+/* line 2090, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-pencil:before {
+  content: '\e1e8';
+}
+
+/* line 2094, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-people:before {
+  content: '\e1e9';
+}
+
+/* line 2098, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-person-female:before {
+  content: '\e1ea';
+}
+
+/* line 2102, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-person-genderless:before {
+  content: '\e1eb';
+}
+
+/* line 2106, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-person-male:before {
+  content: '\e1ec';
+}
+
+/* line 2110, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-pie-chart:before {
+  content: '\e1ed';
+}
+
+/* line 2114, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-pin:before {
+  content: '\e1ee';
+}
+
+/* line 2118, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-plus:before {
+  content: '\e1ef';
+}
+
+/* line 2122, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-power-standby:before {
+  content: '\e1f0';
+}
+
+/* line 2126, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-print:before {
+  content: '\e1f1';
+}
+
+/* line 2130, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-project:before {
+  content: '\e1f2';
+}
+
+/* line 2134, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-pulse:before {
+  content: '\e1f3';
+}
+
+/* line 2138, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-puzzle-piece:before {
+  content: '\e1f4';
+}
+
+/* line 2142, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-question-mark:before {
+  content: '\e1f5';
+}
+
+/* line 2146, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-radiation:before {
+  content: '\e1f6';
+}
+
+/* line 2150, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-rainy:before {
+  content: '\e1f7';
+}
+
+/* line 2154, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-random:before {
+  content: '\e1f8';
+}
+
+/* line 2158, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-ratio:before {
+  content: '\e1f9';
+}
+
+/* line 2162, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-reload:before {
+  content: '\e1fa';
+}
+
+/* line 2166, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-resize-both:before {
+  content: '\e1fb';
+}
+
+/* line 2170, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-resize-height:before {
+  content: '\e1fc';
+}
+
+/* line 2174, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-resize-width:before {
+  content: '\e1fd';
+}
+
+/* line 2178, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-route:before {
+  content: '\e1fe';
+}
+
+/* line 2182, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-rss-alt:before {
+  content: '\e1ff';
+}
+
+/* line 2186, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-rss:before {
+  content: '\e200';
+}
+
+/* line 2190, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-scissors:before {
+  content: '\e201';
+}
+
+/* line 2194, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-screwdriver:before {
+  content: '\e202';
+}
+
+/* line 2198, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-script:before {
+  content: '\e203';
+}
+
+/* line 2202, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-server:before {
+  content: '\e204';
+}
+
+/* line 2206, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-settings:before {
+  content: '\e205';
+}
+
+/* line 2210, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-share-boxed:before {
+  content: '\e206';
+}
+
+/* line 2214, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-share:before {
+  content: '\e207';
+}
+
+/* line 2218, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-shield:before {
+  content: '\e208';
+}
+
+/* line 2222, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-signal:before {
+  content: '\e209';
+}
+
+/* line 2226, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-signpost:before {
+  content: '\e20a';
+}
+
+/* line 2230, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-social-dropbox:before {
+  content: '\e20b';
+}
+
+/* line 2234, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-social-facebook:before {
+  content: '\e20c';
+}
+
+/* line 2238, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-social-github:before {
+  content: '\e20d';
+}
+
+/* line 2242, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-social-instagram:before {
+  content: '\e20e';
+}
+
+/* line 2246, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-social-linkedin:before {
+  content: '\e20f';
+}
+
+/* line 2250, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-social-reddit:before {
+  content: '\e210';
+}
+
+/* line 2254, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-social-tumblr:before {
+  content: '\e211';
+}
+
+/* line 2258, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-social-twitter:before {
+  content: '\e212';
+}
+
+/* line 2262, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-sort-ascending:before {
+  content: '\e213';
+}
+
+/* line 2266, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-sort-descending:before {
+  content: '\e214';
+}
+
+/* line 2270, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-spreadsheet:before {
+  content: '\e215';
+}
+
+/* line 2274, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-star:before {
+  content: '\e216';
+}
+
+/* line 2278, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-sun:before {
+  content: '\e217';
+}
+
+/* line 2282, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-tablet:before {
+  content: '\e218';
+}
+
+/* line 2286, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-tag:before {
+  content: '\e219';
+}
+
+/* line 2290, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-tags:before {
+  content: '\e21a';
+}
+
+/* line 2294, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-target:before {
+  content: '\e21b';
+}
+
+/* line 2298, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-task:before {
+  content: '\e21c';
+}
+
+/* line 2302, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-terminal:before {
+  content: '\e21d';
+}
+
+/* line 2306, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-text:before {
+  content: '\e21e';
+}
+
+/* line 2310, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-thermometer:before {
+  content: '\e21f';
+}
+
+/* line 2314, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-thumb-down:before {
+  content: '\e220';
+}
+
+/* line 2318, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-thumb-up:before {
+  content: '\e221';
+}
+
+/* line 2322, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-tiara:before {
+  content: '\e222';
+}
+
+/* line 2326, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-timer:before {
+  content: '\e223';
+}
+
+/* line 2330, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-tint:before {
+  content: '\e224';
+}
+
+/* line 2334, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-tools:before {
+  content: '\e225';
+}
+
+/* line 2338, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-transfer:before {
+  content: '\e226';
+}
+
+/* line 2342, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-trash:before {
+  content: '\e227';
+}
+
+/* line 2346, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-vertical-align-bottom:before {
+  content: '\e228';
+}
+
+/* line 2350, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-vertical-align-center:before {
+  content: '\e229';
+}
+
+/* line 2354, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-vertical-align-top:before {
+  content: '\e22a';
+}
+
+/* line 2358, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-video:before {
+  content: '\e22b';
+}
+
+/* line 2362, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-volume-high:before {
+  content: '\e22c';
+}
+
+/* line 2366, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-volume-low:before {
+  content: '\e22d';
+}
+
+/* line 2370, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-volume-medium:before {
+  content: '\e22e';
+}
+
+/* line 2374, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-volume-off:before {
+  content: '\e22f';
+}
+
+/* line 2378, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-warning:before {
+  content: '\e230';
+}
+
+/* line 2382, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-wifi:before {
+  content: '\e231';
+}
+
+/* line 2386, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-wrench:before {
+  content: '\e232';
+}
+
+/* line 2390, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-x:before {
+  content: '\e233';
+}
+
+/* line 2394, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-yen:before {
+  content: '\e234';
+}
+
+/* line 2398, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-zoom-in:before {
+  content: '\e235';
+}
+
+/* line 2402, ../sass/vendors/_iconic-bootstrap.scss */
+.iconic-zoom-out:before {
+  content: '\e236';
+}
+
 /* line 1, ../sass/components/_content.scss */
 body {
-  background: yellow;
+  background: #333333;
 }
 
 /* line 5, ../sass/components/_content.scss */
 .office {
-  background: green;
+  background: #ffe9c9;
 }
 /* line 7, ../sass/components/_content.scss */
-.office .container {
+.office .boombox {
+  background: #68a79c;
   position: relative;
   top: 3em;
   margin-bottom: 3em;
   z-index: 100;
 }
 
-/* line 15, ../sass/components/_content.scss */
+/* line 16, ../sass/components/_content.scss */
 .speaker, .deck {
   height: 500px;
-}
-
-/* line 19, ../sass/components/_content.scss */
-.speaker {
-  background: red;
-}
-
-/* line 23, ../sass/components/_content.scss */
-.deck {
-  background: blue;
 }

@@ -10,16 +10,29 @@ body {
         top: 3em;
         margin-bottom:3em;
         z-index: 100;
+        .buttons {
+            @extend .text-center;
+            button {
+                background: $buttons;
+                border:.25em solid $background;
+                border-left: none;
+                border-bottom: none;
+                outline:none;
+                font-size: 3em;
+
+                position: relative;
+                top: -.25em;
+                &:first-child {
+                    border-left:.25em solid $background;
+                }
+            }
+        }
+        .speaker {
+        
+        }
     }
 }
 
 .speaker, .deck {
     height: 500px;
-}
-
-.speaker {
-}
-
-.deck {
-    @extend .text-center;
 }

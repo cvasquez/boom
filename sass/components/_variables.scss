@@ -1,4 +1,11 @@
 /** Colors **/
-    $background:    #ffe9c9;
-    $desktop:       #333333;
-    $boom_body:     #68a79c;
+    $blue:      #68a79c;
+    $yellow:    #ffe9c9;
+    $orange:    #c87153;
+    $dark_gray: #333333;
+
+    /** Color Roles **/
+        $background:    $yellow;
+        $desktop:       $dark_gray;
+        $boom_body:     $blue;
+        $buttons:       $orange;

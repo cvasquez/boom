@@ -28,7 +28,16 @@ body {
             }
         }
         .speaker {
-        
+            .circle {
+                position: relative;
+                top: 50%;
+                transform: translateY(-50%);
+                width: 100%;
+                padding-bottom: 100%;
+                overflow: hidden;
+                background: $orange;
+                @include border-radius(100em);
+            }
         }
     }
 }

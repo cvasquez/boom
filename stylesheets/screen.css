@@ -11098,8 +11098,23 @@ body {
 .office .boombox .buttons button:first-child {
   border-left: 0.25em solid #ffe9c9;
 }
+/* line 31, ../sass/components/_content.scss */
+.office .boombox .speaker .circle {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding-bottom: 100%;
+  overflow: hidden;
+  background: #c87153;
+  -webkit-border-radius: 100em;
+  -moz-border-radius: 100em;
+  -ms-border-radius: 100em;
+  -o-border-radius: 100em;
+  border-radius: 100em;
+}
 
-/* line 36, ../sass/components/_content.scss */
+/* line 45, ../sass/components/_content.scss */
 .speaker, .deck {
   height: 500px;
 }

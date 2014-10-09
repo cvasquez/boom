@@ -8019,7 +8019,7 @@ button.close {
 
 @media (max-width: 767px) {
   /* line 18, ../bower_components/bootstrap-sass-official/assets/stylesheets/bootstrap/mixins/_responsive-visibility.scss */
-  .hidden-xs {
+  .hidden-xs, .office .boombox .speaker {
     display: none !important;
   }
 }
@@ -11098,7 +11098,7 @@ body {
 .office .boombox .buttons button:first-child {
   border-left: 0.25em solid #ffe9c9;
 }
-/* line 31, ../sass/components/_content.scss */
+/* line 32, ../sass/components/_content.scss */
 .office .boombox .speaker .circle {
   position: relative;
   top: 50%;
@@ -11113,7 +11113,7 @@ body {
   -o-border-radius: 100em;
   border-radius: 100em;
 }
-/* line 43, ../sass/components/_content.scss */
+/* line 44, ../sass/components/_content.scss */
 .office .boombox .deck .tapedeck {
   position: relative;
   top: 50%;
@@ -11124,7 +11124,7 @@ body {
   background: #333333;
 }
 
-/* line 56, ../sass/components/_content.scss */
+/* line 57, ../sass/components/_content.scss */
 .speaker, .deck {
   height: 500px;
 }

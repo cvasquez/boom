@@ -11113,8 +11113,18 @@ body {
   -o-border-radius: 100em;
   border-radius: 100em;
 }
+/* line 43, ../sass/components/_content.scss */
+.office .boombox .deck .tapedeck {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  padding-bottom: 50%;
+  overflow: hidden;
+  background: #333333;
+}
 
-/* line 45, ../sass/components/_content.scss */
+/* line 56, ../sass/components/_content.scss */
 .speaker, .deck {
   height: 500px;
 }

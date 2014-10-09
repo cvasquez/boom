@@ -4,10 +4,16 @@ body {
 
 .office {
     background: green;
+    .container {
+        position: relative;
+        top: 3em;
+        margin-bottom:3em;
+        z-index: 100;
+    }
 }
 
 .speaker, .deck {
-    height: 50%;
+    height: 500px;
 }
 
 .speaker {

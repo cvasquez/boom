@@ -3,10 +3,17 @@ SC.initialize({
     client_id: '4c080ec8937fa1175751566017de15fc',
 });
 
+// Global variable for storing trackID number
+var trackID
+
+/* Supposedly a function that takes the data from the
+  form element and stores it in a variable to use in
+  the document.ready function */
+
 function processFormData() {
 var track_object = document.getElementById('track');
 
-var trackID = track_object.value;
+trackID = track_object.value;
 }
 
 $(document).ready(function(trackID) {
